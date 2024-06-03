@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 
 :root {
     --header-height: 3rem;
@@ -147,11 +147,13 @@ a {
     height: 100vh
 }
 
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 720px) {
     body {
         margin: calc(var(--header-height) + 1rem) 0 0 0;
         padding-left: calc(var(--nav-width) + 2rem)
     }
+
+}
 
     .header {
         height: calc(var(--header-height) + 1rem);
@@ -179,4 +181,28 @@ a {
     .body-pd {
         padding-left: calc(var(--nav-width) + 188px)
     }
-}
+
+    h4{
+        padding: 20px 0 40px 70px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .tabela th{
+        padding-right: (spacer * .5);
+    }
+
+     .estoque{
+        background-color: white;
+        width: 90%;
+        height: 421px;
+        border: solid 2.7px;
+        border-radius: 12px;
+        margin: 0 10% 0 5%; 
+        padding: 100px 100px 100px 35px;
+    } 
+
+    body {
+        overflow: hidden;
+    }
+
